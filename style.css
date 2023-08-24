@@ -84,10 +84,7 @@ section{
     display:flex;
     align-items: center;
     padding: 0 9%;
-    background: url('/images/aman.jpg') no-repeat ;
-    background-size: 300px;
-    background-position: right;
-    background-position-x: 85%;
+    
 }
 
 .home-content{
@@ -149,21 +146,6 @@ section{
     color: var(--main-color);
 }
 
-/*
-for different hovering clr for second button
-.btn-box .btn:nth-child(2) {
-    background: transparent;
-    color: var(--main-color);
-}
-
-.btn-box .btn:nth-child(2):hover{
-    color: var(--bg-color);
-}
-
-.btn-box .btn:nth-child(2)::before {
-    background: var(--main-color);
-}
-*/
 
 .btn-box .btn::before {
     content: '';
